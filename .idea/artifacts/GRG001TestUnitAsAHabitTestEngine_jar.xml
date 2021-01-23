@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GRG001TestUnitAsAHabitTestEngine:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GRG001TestUnitAsAHabitTestEngine_jar</output-path>
+    <root id="archive" name="GRG001TestUnitAsAHabitTestEngine.jar">
+      <element id="module-output" name="GRG001JUnitAsAHabitTestEngine" />
+      <element id="directory" name="META-INF">
+        <element id="directory" name="services">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/services/org.junit.platform.engine.TestEngine" />
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/services/org.junit.platform.launcher.TestExecutionListener" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

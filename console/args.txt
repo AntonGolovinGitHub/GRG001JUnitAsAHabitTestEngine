@@ -1,0 +1,18 @@
+--include-engine custom-test-engine
+--exclude-engine junit-jupiter
+--exclude-engine junit-vintage
+--select-file=..\tests\test1.txt
+--select-file=..\tests\test2.txt
+--select-file=..\tests\test3.txt
+--select-file=..\tests\test4.txt
+--select-file=..\tests\test5.txt
+--select-file=..\tests\test6.txt
+--select-file=..\tests\test7.txt
+--select-file=..\tests\test8.txt
+--select-file=..\tests\test9.txt
+--select-file=..\tests\test10.txt
+--disable-ansi-colors
+--details=VERBOSE
+--fail-if-no-tests
+--reports-dir=.
+--classpath ..\out\artifacts\GRG001TestUnitAsAHabitTestEngine_jar\GRG001TestUnitAsAHabitTestEngine.jar
